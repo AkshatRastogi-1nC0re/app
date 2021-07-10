@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backtest"
+    tools:context="com.willowood.akshatrastogi.willowoodagri.willoxamfshindi">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ln"  />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:background="#038C11"
+                    android:src="@drawable/willoxamfshindiback" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="1. थायामेथोक्साम 30% FS\n \n2. विलोक्ज़ाम एक बहुउपयोगी अंतरप्रवाही कीटनाशक है, जो बीजोपचारक के रूप में विभिन्न फसलों पर उपयोग किया जाता है| विलोक्ज़ाम से बीज उपचार करने से फसल के आरंभ में आने वाले चूषक कीटों को नियंत्रित किया जा सकता है| इसकी आवश्यक मात्रा कपास की फसल में होने वाले कीट जैसे तेला, माहू और सफेद मक्खी ज्वार व मक्का की प्ररोह मक्खी, गेंहूँ के दीमक, भिण्डी के तेला, धान के चुरदा, हरा पत्ती का फुदका व चक्रीय मेगोट, सूरजमुखी के तेला व चुरदा, सोयाबीन की तना मक्खी तथा मिर्च के चुरदा के नियंत्रण के लिए बीज उपचार करने के लिए सिफारिश की जाती है| चूषक कीटों पर शीघ्र असर होने के कारण यह पत्ता मोडक रोग होने से रोकती है|\n \n3. प्रयोग की मात्रा: -\n \n   विलोक्ज़ाम की प्रति किलो बीज के लिए आवश्यक मात्रा को, 10-20 मि.ली. पानी में मिलायें| इस गाढे घोल को बीजों के साथ मिलाकर आच्छी तरह से तब तक (आम तौर पर एक मिनट से कम) हिलायें जब तक बीज पूरी तरह से थायामेथोक्साम 30% FS मिल न जाए|\nकृपया प्रयोग से पूर्व उत्पाद के साथ संग्लन निर्देशिका ध्यान से पढ़ें|"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

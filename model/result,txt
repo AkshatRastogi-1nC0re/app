@@ -1,0 +1,75 @@
+else if(results.title.equals("apple black rot")){
+                                disease.text = "सेब काला सड़ांध"
+                            }else if(results.title.equals("apple cedar apple rust")){
+                                disease.text = "सेब देवदार सेब जंग"
+                            }else if(results.title.equals("apple healthy")){
+                                disease.text = "सेब स्वस्थ"
+                            }else if(results.title.equals("blueberry healthy")){
+                                disease.text = "ब्लूबेरी स्वस्थ"
+                            }else if(results.title.equals("cherry including sour powdery mildew")){
+                                disease.text = "खट्टा पाउडर फफूंदी सहित चेरी"
+                            }else if(results.title.equals("cherry including sour healthy")){
+                                disease.text = "चेरी सहित खट्टा स्वस्थ"
+                            }else if(results.title.equals("corn maize cercospora leaf spot gray leaf spot")){
+                                disease.text = "मकई मक्का सर्कोस्पोरा लीफ स्पॉट ग्रे लीफ स्पॉट"
+                            }else if(results.title.equals("corn maize common rust")){
+                                disease.text = "मक्का मक्का आम जंग"
+                            }else if(results.title.equals("corn maize northern leaf blight")){
+                                disease.text = "मक्का मक्का उत्तरी पत्ती तुषार"
+                            }else if(results.title.equals("corn maize healthy")){
+                                disease.text = "मक्का मक्का स्वस्थ"
+                            }else if(results.title.equals("grape black rot")){
+                                disease.text = "अंगूर काला सड़ांध"
+                            }else if(results.title.equals("grape esca black measles")){
+                                disease.text = "अंगूर काला खसरा"
+                            }else if(results.title.equals("grape leaf blight isariopsis leaf spot")){
+                                disease.text = "अंगूर का पत्ता तुड़ाई इसारियोप्सिस लीफ स्पॉट"
+                            }else if(results.title.equals("grape healthy")){
+                                disease.text = "अंगूर स्वस्थ"
+                            }else if(results.title.equals("orange haunglongbing citrus greening")){
+                                disease.text = "संतरा हैंगलोंगबिंग साइट्रस ग्रीनिंग"
+                            }else if(results.title.equals("peach bacterial spot")){
+                                disease.text = "पीच बैक्टीरियल स्पॉट"
+                            }else if(results.title.equals("peach healthy")){
+                                disease.text = "आड़ू स्वस्थ"
+                            }else if(results.title.equals("pepper bell bacterial spot")){
+                                disease.text = "काली मिर्च की घंटी जीवाणु स्पॉट"
+                            }else if(results.title.equals("pepper bell healthy")){
+                                disease.text = "काली मिर्च की घंटी स्वस्थ"
+                            }else if(results.title.equals("potato early blight")){
+                                disease.text = "आलू जल्दी तुषार"
+                            }else if(results.title.equals("potato late blight")){
+                                disease.text = "आलू लेट ब्लाइट"
+                            }else if(results.title.equals("potato healthy")){
+                                disease.text = "आलू स्वस्थ"
+                            }else if(results.title.equals("raspberry healthy")){
+                                disease.text = "रास्पबेरी स्वस्थ"
+                            }else if(results.title.equals("soybean healthy")){
+                                disease.text = "सोयाबीन स्वस्थ"
+                            }else if(results.title.equals("squash powdery mildew")){
+                                disease.text = "स्क्वैश पाउडर फफूंदी"
+                            }else if(results.title.equals("strawberry leaf scorch")){
+                                disease.text = "स्ट्रॉबेरी लीफ स्कॉर्च"
+                            }else if(results.title.equals("strawberry healthy")){
+                                disease.text = "स्ट्रॉबेरी स्वस्थ"
+                            }else if(results.title.equals("tomato bacterial spot")){
+                                disease.text = "टमाटर जीवाणु स्पॉट"
+                            }else if(results.title.equals("tomato early blight")){
+                                disease.text = "टमाटर जल्दी तुड़ाई"
+                            }else if(results.title.equals("tomato late blight")){
+                                disease.text = "टमाटर देर से तुड़ाई"
+                            }else if(results.title.equals("tomato leaf mold")){
+                                disease.text = "टमाटर का पत्ता मोल्ड"
+                            }else if(results.title.equals("tomato septoria leaf spot")){
+                                disease.text = "टमाटर सेप्टोरिया लीफ स्पॉट"
+                            }else if(results.title.equals("tomato spider mites two spotted spider mite")){
+                                disease.text = "टोमैटो स्पाइडर माइट्स टू स्पॉटेड स्पाइडर माइट"
+                            }else if(results.title.equals("tomato target spot")){
+                                disease.text = "टमाटर लक्ष्य स्थान"
+                            }else if(results.title.equals("tomato tomato yellow leaf curl virus")){
+                                disease.text = "टमाटर टमाटर पीली पत्ती कर्ल वायरस"
+                            }else if(results.title.equals("tomato tomato mosaic virus")){
+                                disease.text = "टमाटर टमाटर मोज़ेक वायरस"
+                            }else if(results.title.equals("tomato healthy")){
+                                disease.text = "टमाटर स्वस्"
+                            }

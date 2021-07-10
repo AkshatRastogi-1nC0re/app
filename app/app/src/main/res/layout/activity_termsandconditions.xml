@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backtest"
+    tools:context="com.willowood.akshatrastogi.willowoodagri.termsandconditions">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout4">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="To use this app please accept the  \n"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#030303"
+            android:textSize="20dp" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Terms &amp; Conditions and Privacy Policy\n"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#030303"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:id="@+id/terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:linksClickable="false"
+                android:text="Terms and Conditions "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#038C11"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/s1"
+                android:checked="false"
+                android:theme="@style/switchStyle"
+                android:text="are accepted"
+                android:textSize="17sp"
+                android:trackTint="#038c11" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/privacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:linksClickable="false"
+                android:text="Privacy Policy"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#038C11"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/s2"
+                android:checked="false"
+                android:theme="@style/switchStyle"
+                android:text="  is accepted"
+                android:textSize="17sp"
+                android:trackTint="#038c11" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="39dp"
+        android:background="#038C11"
+        android:text="    CONTINUE    "
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+</RelativeLayout>

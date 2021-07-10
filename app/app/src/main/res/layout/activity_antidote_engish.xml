@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backtest"
+    android:contentDescription="@string/app_description"
+    tools:context="com.willowood.akshatrastogi.willowoodagri.AntidoteEngish">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_description"
+        android:id="@+id/linearLayout4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ln"
+            android:contentDescription="@string/app_description"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout4"
+        android:contentDescription="@string/app_description">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_description">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_description">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/antidote_for_agrochemicals"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acephate_75_sp_n_acephate_35_buprofezin_15_wp_n_chloropyrifos_50_cypermethrin_5_ec_n_dichlorovos_76_ec_nfor_above_agro_chemicals_atropine_sulphate_2_4_mg_at_5_10_minutes_interval_should_be_given_for_hours_together_nfor_other_agro_chemicals_there_is_no_known_antidote_treat_the_patient_symptomatically"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textIsSelectable="false"
+                    android:textSize="22sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/general_antidotes"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/removal_of_poison_remove_poisons_by_including_vomiting_nthe_universal_antidote_a_mixture_of_7_g_of_activated_charcoal_3_5_g_of_magnesium_oxide_and_3_5_g_of_tannic_acid_in_half_a_glass_of_warm_water_may_be_used_to_absorb_or_neutralize_poisons_this_mixture_is_useful_in_poisoning_by_acids_liquid_glycosides_and_heavy_metals_except_in_cases_of_poisoning_by_corrosive_substances_it_should_be_followed_by_gastric_lavage"
+                    android:layout_marginTop="10dp"
+                    android:textIsSelectable="false"
+                    android:textSize="22sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/gastric_lavage_removal_of_stomach_contents_lavage_is_the_most_important_method_for_removing_poisons_from_the_stomach"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/demulcents_substances_having_soothing_effect_after_the_stomach_has_been_emptied_as_completely_as_possible_give_one_of_the_following_nraw_egg_white_mixed_with_water_n1_gelatine_9_to_18_g_dissolved_in_570_ml_of_warm_water_n2_butter_n3_cream_n4_milk_n5_mashed_potato_n6_flour_and_water"
+                    android:layout_marginTop="10dp"
+                    android:textIsSelectable="false"
+                    android:textSize="22sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/first_aid_precautions_in_case_of_pesticide_poisoning"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/swallowed_poisons"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/remove_poison_from_the_patient_s_stomach_immediately_by_inducing_vomiting_give_common_salt_15_g_in_a_glass_of_warm_water_as_an_emetic_and_repeat_until_vomit_fluid_is_clear_gently_stroking_or_touching_the_throat_with_the_finger_or_the_blunt_end_of_a_spoon_will_aid_in_inducing_vomiting_when_the_stomach_is_full_of_fluid_if_the_patient_is_already_vomiting_do_not_five_emetic_but_give_large_amounts_of_warm_water_and_then_follow_the_specific_directions_suggested"
+                    android:layout_marginTop="10dp"
+                    android:textIsSelectable="false"
+                    android:textSize="22sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/inhaled_poisons"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/_1_carry_the_patient_do_not_let_him_walk_to_fresh_air_immediately_n2_open_all_doors_and_windows_n3_loosen_all_tight_clothing_n4_apply_artificial_respirations_if_breathing_has_stopped_or_is_irregular_avoid_vigorous_application_of_pressure_to_the_chest_n5_prevent_chilling_n6_wrap_the_patient_is_convulsing_keep_the_patient_as_quiet_as_possible_n7_if_the_patient_is_convulsing_keep_him_in_some_dark_room_avoid_jarring_noise_n8_do_not_give_alcohol_in_any_form"
+                    android:layout_marginTop="10dp"
+                    android:textIsSelectable="false"
+                    android:textSize="22sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/skin_contamination"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/_1_hold_eye_lids_open_n2_wash_the_eyes_gently_with_a_stream_of_running_water_immediately_delay_of_even_a_few_seconds_greatly_increases_the_extent_of_injury"
+                    android:layout_marginTop="10dp"
+                    android:textIsSelectable="false"
+                    android:textSize="22sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/prevention_of_collapse"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:contentDescription="@string/app_description"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/_1_cover_the_patient_with_a_light_blanket_n2_do_not_use_a_hot_water_bottle_n3_raise_foot_of_bed_n4_apply_elastic_bands_to_arms_and_legs_n5_give_strong_tea_or_coffee_n6_hypodermic_injection_of_stimulants_such_as_caffeine_and_epinephrine_n7_fluid_administration_of_dextrose_5_intravenously_n8_blood_or_plasma_transfusion_n9_do_not_exhaust_the_patient_by_too_much_or_too_vigorous_treatment"
+                    android:layout_marginTop="10dp"
+                    android:textIsSelectable="false"
+                    android:textSize="22sp"
+                    android:contentDescription="@string/app_description"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

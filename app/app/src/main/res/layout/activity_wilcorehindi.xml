@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backtest"
+    tools:context="com.willowood.akshatrastogi.willowoodagri.wilcorehindi">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ln"  />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:background="#038C11"
+                    android:src="@drawable/wilcorehinback" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:text="1. डायफेनकोनाजोल 25 EC\n \n2. विलकोर एक बहु-आयामी , अंतर्प्रवाही क्रिया द्वारा कार्य करने वाला फफूंदनाशक है जो विभिन्न फसलों में विभिन्न  रोगों का सफल नियंत्रण करता है.\n \n3. अनुशंसित मात्रा-\n \n   15 मिली प्रति 100 लीटर पानी में, सेब में स्केब रोग के लिए\n \n   50 मिली प्रति 100 लीटर पानी में, धान में झुलसा  रोग (शीथ ब्लाइट) के लिए\n \n   50 मिली प्रति 100 लीटर पानी में, मिर्च  में डाई-बैक व फल गलन रोग के लिए\n \n   50 मिली प्रति 100 लीटर पानी में, जीरे  में काला झुलसा व पाउड्री मिल्ड्यू रोग के लिए\n \n   100 मिली प्रति 100 लीटर पानी में, प्याज  में बैगनी धब्बा रोग के लिए\n \n   100 मिली प्रति 100 लीटर पानी में, अनार  में फल गलन रोग के लिए\n \n   30 मिली प्रति 100 लीटर पानी में, अंगूर  में एन्थ्रेकनोज व पाउड्री मिल्ड्यू रोग के लिए\n"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textIsSelectable="false"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

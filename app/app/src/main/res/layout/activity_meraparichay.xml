@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backtest"
+    tools:context="com.willowood.akshatrastogi.willowoodagri.meraparichay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginTop="10dp"
+                android:text="स्वयं को पंजीकृत करें"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="निम्नलिखित जानकारी भरें"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="नाम"
+                android:inputType="textPersonName"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/pno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="फोन नंबर"
+                android:inputType="phone"
+                android:textColorHint="#030303" />
+
+            <Spinner
+                android:id="@+id/sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a0ffffff"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/occu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#a0ffffff"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="#038C11"
+                android:drawableRight="@drawable/t2"
+                android:text="अधिक जानकारी भरें (वैकल्पिक)"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/fathersname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="पिता का नाम (वैकल्पिक)"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#040404"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/villageortown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="गाँव/नगर (वैकल्पिक)"
+                android:textColorHint="#000000"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/postoffice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="डाकघर (वैकल्पिक)"
+                android:inputType="textMultiLine"
+                android:textColorHint="#050505"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/tehsil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="तहसील (वैकल्पिक)"
+                android:textColorHint="#060606"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="जिला (वैकल्पिक)"
+                android:textColorHint="#000000"
+                android:visibility="gone" />
+            <EditText
+                android:id="@+id/pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="पिन कोड (वैकल्पिक)"
+                android:inputType="phone"
+                android:textColorHint="#000000"
+                android:visibility="gone" />
+            <EditText
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="भूमि स्वामित्व (वैकल्पिक)"
+                android:inputType="numberDecimal"
+                android:textColorHint="#050505"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/maj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="प्रमुख फसलें (वैकल्पिक)"
+                android:inputType="textMultiLine"
+                android:textColorHint="@android:color/background_dark"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/buttonsubmit"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ripple"
+                android:text="स्वीकृत करें"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/oc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/stt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

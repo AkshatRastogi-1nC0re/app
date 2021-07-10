@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.willowood.akshatrastogi.willowoodagri"
+    android:targetSandboxVersion="2"
+    android:versionCode="9"
+    android:versionName="4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.willowood.akshatrastogi.willowoodagri.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.willowood.akshatrastogi.willowoodagri.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/wltransparentlogo"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.news_inside"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.mainactivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.deltrom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.deltromhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.pacemaker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.pacemakerhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.sulconahindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.diazotophindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.sulcona"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.diazotop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilbloom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilbloomhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilgibhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilgib"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.mango_hindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.peahindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.menthaenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.pomogrenade"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.tomato_english"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.tomato_hindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.news_inside_hindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.dnahindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiljoshhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilflyhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.halowilhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.halowilenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilflyenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiljoshenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.dnaenglish"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.willowood.akshatrastogi.willowoodagri.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.willowood.akshatrastogi.willowoodagri.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.LanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.EnglishHomepage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.HindiHomepage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.aboutus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.hindiaboutus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.productsenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.productshindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.cropEnglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.cerealcrops"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.pulses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.vegetables"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.fruitcrop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.othercrops"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.insecticide"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.fungicides"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.pgrs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.herbicides"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.kitnashak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.fafundnashak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.kharpatwarnashak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.paudhvikasvardhak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.crophindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.anaaj"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.dalhan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.sabji"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.fal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.anya"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.innovexia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.taurate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.exotica"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.teknox"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wwadvisor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.brandsl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.brandgr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.valxtra"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.miticide"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wwadvisorhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.SplashScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.makrinashak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.inovexiahindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.teknoxhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.tauratehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.exoticahindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.brandslhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.brandgrhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.valxtrahindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.termsandconditions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.tandcpage"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.willowood.akshatrastogi.willowoodagri.wilbondhindi" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.surfactanthindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiliconhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.mainactivityhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.surfactant"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilbond"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilicon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.flyover"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.leopard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.emacto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.antenna"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilthrin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.breakeng"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.sunnyclassic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willoxam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.carmel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.phylum"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.theme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiltry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willosate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.sms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilfop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willosate71"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilquat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.octavia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilfit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.patriot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.oxyguard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.clodexo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.clodexohindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiltez"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiltezhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.carmelhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.phylumhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.themehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiltryhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willosatehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.smshindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilfophindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willosate71hindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilquathindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.octaviahindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilfithindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.patriothindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.oxyguardhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.flyoverhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.leopard70wghindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.emactohindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.antennahindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilthrinhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.breakhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.sunnyclassichindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willoxamhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willoxamfshindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.UserProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.ProfilePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.safeuseenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.termsandconditionshomepage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.privacypolicy"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.contactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willoxamfsenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilkingenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilqueenenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilaceenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.drcallenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.laybayenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilpowerenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.suraksha"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.meraparichay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilzolepluseng"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilcoreeng"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilstrongeng"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.mywillenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilforce32english"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilsuperenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilripeeng"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willomiteeng"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiltoxenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.mywillhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willomitehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wiltoxhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilripehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilsuperhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilforce32hindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.contactpagehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.termsandconditionshindihomepage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.profile_page_hindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilzoleplushin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.drcolhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.laybyhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilcorehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilstronghindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilpowerhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilkinghindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.wilqueenhindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.willacehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.NewsHindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.AntidoteEngish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.antidotehindi"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.willowood.akshatrastogi.willowoodagri.soyabean" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.tceh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.ppeh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.soyabeanenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.riceenglish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.ricehindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.potato_english"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.onion_english"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.onion_hindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.potato_hindi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.cumin_english"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.willowood.akshatrastogi.willowoodagri.menthahindi"
+            android:screenOrientation="portrait" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.willowood.akshatrastogi.willowoodagri" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.willowood.akshatrastogi.willowoodagri.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

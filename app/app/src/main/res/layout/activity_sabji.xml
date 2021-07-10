@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backtest"
+    tools:context="com.willowood.akshatrastogi.willowoodagri.sabji">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ln" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/aalu"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="#038C11"
+                    android:drawableLeft="@drawable/potato"
+                    android:text="आलू"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/onion"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#038C11"
+                    android:drawableLeft="@drawable/onion"
+                    android:text="प्याज"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#038C11"
+                    android:drawableLeft="@drawable/tomato"
+                    android:text="टमाटर"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/mirch"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="#038C11"
+                    android:drawableLeft="@drawable/chilli"
+                    android:text="मिर्च"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/bengan"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#038C11"
+                    android:drawableLeft="@drawable/brinjal"
+                    android:text="बैंगन"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/gobhi"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:background="#038C11"
+                    android:drawableLeft="@drawable/colecrops"
+                    android:minHeight="65dp"
+                    android:text="गोभी"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/matar"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="#038C11"
+                    android:drawableLeft="@drawable/bengalgram"
+                    android:text="मटर"
+                    android:textColor="#ffffff"
+                    android:textSize="27dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backtest"
+    tools:context="com.willowood.akshatrastogi.willowoodagri.valxtrahindi">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ln"  />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:background="#038C11"
+                    android:src="@drawable/valxtrahindiback" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="सक्रीय तत्व:"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="हेक्जाकोनाजोल 5% +  वेलिडामाईसिन 2.5% SC"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="बायोकेमिस्ट्री:"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="वेलेक्स्ट्रा एक उत्कृष्ट बहु-आयामी अंतर्प्रवाही फफूंदनाशक व एक उत्कृष्ट जीवाणुनाशक है जो विभिन्न फसलों को विभिन्न फफूंद-जनित व जीवाणुजनित रोगों से बचाव करता है."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="कार्य बिधि (फफूंद पर):"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="वेलेक्स्ट्रा  फफूंद  रोगों  पर  अपनी  दोहरी  कार्य  पद्धति  के  कारण  उत्तम  परिणाम देता है."
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1. वेलेक्स्ट्रा फफूंद की हायफी व मायसीलीयम अवस्था में कोशिकाओं की आसाधारण वृद्धि कर फफूंद कोशिकाओं को नष्ट कर देता है फलस्वरूप फफूंद  का विकास रुक जाता है."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2. वेलेक्स्ट्रा फफूंद कोशिकाओं के उर्जा श्रोत को अबरुद्ध कर फफूंद  कोशिकाओं को नष्ट कर देता है"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="कार्य बिधि (जीवाणु पर) :"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="वेलेक्स्ट्रा जीवाणुओं की कोशिकाओं में डीएनए व प्रोटीन निर्माण को अबरुद्ध कर, कोशिका भित्ति को तोड़, कोशिकाओं को नष्ट कर देता है तथा फसल को जीवाणु रोगों से बचाव करता है."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="विशेषताएं व लाभ :"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1. वेलेक्स्ट्रा - विलोवुड का एक पेटेंट उत्पाद है."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2. वेलेक्स्ट्रा- एक उत्कृष्ट बहु-आयामी फफूंदनाशक  व जीवाणुनाशक है"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="3. वेलेक्स्ट्रा- एक बी.ए.बी. (BAB) रसायन है जो बेक्टेरिया (जीवाणुओं) तथा एस्कोमाइसिट्स व बेसिडियोमाइसिट्स समूह की विभिन्न फफूंदों को नियंत्रित करता है."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4. वेलेक्स्ट्रा- वेलेक्स्ट्रा एक पूर्व मिश्रित रसायन है इस रसायन को प्रयोगशाला में, वैज्ञानिक विधि द्वारा नियंत्रित वातावरण में इस प्रकार तैरार किया गया है कि इसमें उपस्थित दोनों रसायन एक-दूसरे पर सकारात्मक प्रभाव डालते है तथा एक-दुसरे के प्रभाव को बढ़ाते हैं."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5. वेलेक्स्ट्रा- वेलेक्स्ट्रा  एक तरल सांद्र सूत्रीकरण  पर आधारित रसायन है. यह पानी में तेजी से घुल जाता है और पौधे की कोशिकाओं द्वारा तेजी से अवशोषित कर लिया जाता है. जिसके कारण रसायन अपना कार्य शीघ्र शुरू कर देता है."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="6. वेलेक्स्ट्रा- रोगों पर प्रभावी व लम्बा नियंत्रण के साथ-साथ फसल को हरा भी रखता है"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="7. वेलेक्स्ट्रा- फसल को रोगों से त्वरित व लंबी सुरक्षा प्रदान करता है"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="8. वेलेक्स्ट्रा- अपेक्षाकृत कम विषाक्ता वाला फफूंदनाशक है."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="अनुशंसा:"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="धान का शीथ झुलसा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:src="@drawable/v1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="धान का ब्लास्ट रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:src="@drawable/v2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="**आंतरिक अनुसंधान व विकास परीक्षणों के परिणाम :"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="आंतरिक अनुसंधान परीक्षणों में विभिन्न फसलों के विभिन्न रोगों पर अच्छे परिणाम देखे गए हैं.जैसे -"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="धान का जीवाणु झुलसा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:src="@drawable/v3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="धान का भूरा धब्बा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:src="@drawable/v4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="मूँगफली का टिक्का रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:src="@drawable/v5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="मूँगफली का रतुआ रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:src="@drawable/v6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="सोयाबीन का रस्ट"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i1"
+                    android:gravity="left"
+                    android:src="@drawable/v7" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="सोयबीन का बैगनी धब्बा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i2"
+                    android:gravity="left"
+                    android:src="@drawable/v8" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="कपास का पत्ती धब्बा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i3"
+                    android:gravity="left"
+                    android:src="@drawable/v9" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="कपास का जीवाणु धब्बा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i4"
+                    android:gravity="left"
+                    android:src="@drawable/v10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="मिर्च  का डाई-बैक रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i5"
+                    android:gravity="left"
+                    android:src="@drawable/v11" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="मिर्च का पत्ती धब्बा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i6"
+                    android:gravity="left"
+                    android:src="@drawable/v12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="मिर्च  का पाउडरी मिल्ड्यू रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i7"
+                    android:gravity="left"
+                    android:src="@drawable/v14" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="मटर का पाउडरी मिल्ड्यू रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i8"
+                    android:gravity="left"
+                    android:src="@drawable/v15" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="आलू काअगेती झुलसा"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i9"
+                    android:gravity="left"
+                    android:src="@drawable/v16" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="आलू का ब्लैक स्कर्फ"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i10"
+                    android:gravity="left"
+                    android:src="@drawable/v17" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="खीरे का  पाउडरी मिल्ड्यू"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i11"
+                    android:gravity="left"
+                    android:src="@drawable/v18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="टमाटर का जीवाणु धब्बा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i12"
+                    android:gravity="left"
+                    android:src="@drawable/v19" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="टमाटर का अगेती झुलसा"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i13"
+                    android:gravity="left"
+                    android:src="@drawable/v20" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="धनिया का  पाउडरी मिल्ड्यू"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i14"
+                    android:gravity="left"
+                    android:src="@drawable/v21" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="धनिया का  स्टेम गाल"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i15"
+                    android:gravity="left"
+                    android:src="@drawable/v22" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="अफीम का पाउडरी मिल्ड्यू"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i16"
+                    android:gravity="left"
+                    android:src="@drawable/v23" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="आम का पाउडरी मिल्ड्यू"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i17"
+                    android:gravity="left"
+                    android:src="@drawable/v24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="अनार का जीवाणु धब्बा रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i18"
+                    android:gravity="left"
+                    android:src="@drawable/v25" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="जीरे का ग्रीन विल्ट"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i19"
+                    android:gravity="left"
+                    android:src="@drawable/v26" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="जीरे का  काली चारमी रोग"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/i20"
+                    android:gravity="left"
+                    android:src="@drawable/v27" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="**नियामक अनुमोदन प्रक्रिया में है|"
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="प्रयोग विधि व मात्रा:"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="400 मिली. वेलेक्स्ट्रा को 150-200 लीटर पानी में घोल, एक एकड़ क्षेत्रफल में एक सामान छिडकाव करें."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="चेतावनी :"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="प्रयोग से पूर्व वेलेक्स्ट्रा के साथ संलग्न निर्देश पुस्तिका को अवश्य पढ़ें ."
+                    android:textColor="#000000"
+                    android:textSize="22sp" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,370 @@
+<resources>
+    <string name="app_name">Willowood\nCrop Protection</string>
+    <string name="aboutus_txt"> Willowood is a Global Crop Protection Company with its business in more than 50 countries. Willowood was established in 1992 in Hong Kong &amp; started India operations in 2006 and since then has been one of the fastest growing company in the industry. Willowood has 3 manufacturing facilities &amp; a state-of-the-art R&amp;D Centre and GLP facility near Vadodara in Gujarat.\n</string>
+    <string name="secondaboutus"> Willowood is an ISO 9001, ISO 14001, OHSAS 18001 and NABL accredited company in India.\n</string>
+    <string name="thirdaboutus"> Willowood is winner of top 100 SMEs in 2015 and 2016 awarded by Dun and Bradstreet and India SME forum respectively, also acknowledged as best emerging company by ET Now. Willowood is also honored with India’s Small Giant Award in International SME Convention-2018.Willowood was bestowed with “Best Company from an Emerging Region” at Agrow Awards (2018) in London, UK.\n</string>
+    <string name="hindiaboutus">विलोवुड एक विश्वस्तरीय  फसल संरक्षण कंपनी है, जो 50 से अधिक देशों में व्यवसाय करती है। विलोवुड की स्थापना बर्ष 1992 में होंगकांग में हुई. भारत में विलोवुड ने अपना व्यवसाय बर्ष 2006 में शुरू किया. भारत में, फसल सुरक्षा रसायन के निर्माण के लिए विलोवुड की 3 इकाइयां तथा एक आधुनिक अनुसंधान केन्द्र एवं जी.एल.पी. प्रयोगशाला बड़ोदा गुजरात के बड़ोदा में स्थित हैं.  </string>
+    <string name="hindiaboutustwo">विलोवुड भारत में एक आईएसओ 9 001, आईएसओ 14001, ओएचएसएएस 18001 तथा एनएबीएल अधिप्रमाणित कंपनी है।</string>
+    <string name="hindiaboutusthree">विलोवुड को बर्ष  2015 और 2016 में डन और ब्रैडस्ट्रीट तथा  इण्डिया SME फोरम द्वारा शीर्ष 100 SME कम्पनियों की सूचि में चुना गया. ET NOW ने विलोवुड को “सबसे उभरती हुई कंपनी” का ख़िताब दिया है. विलोवुड को इंटरनेशनल SME कन्वेंशन-2018 में “इण्डियाज स्माल जियांट” पुरस्कार से सम्मानित किया गया है \n 2018 में, लन्दन में आयोजित “अग्रो अवार्ड्स” में भी विलोवुड को “उभरते हुए क्षेत्र की सबसे अच्छी कम्पनी” के खिताब से सम्मानित किया गया.</string>
+    <string name="dhan">धान</string>
+    <string name="gehu">गेहूँ</string>
+    <string name="ganna">गन्ना</string>
+    <string name="kapas">कपास</string>
+    <string name="mentha">मेंथा</string>
+    <string name="jeera">जीरा</string>
+    <string name="smart_agriculture">Smart Agriculture</string>
+    <string name="acetamiprid_20_sp">• Acetamiprid-20 % SP</string>
+    <string name="brand_name_antenna"><![CDATA[• Brand Name: ANTENNA]]></string>
+    <string name="antenna_is_a_systemic_insecticide_with_contact_and_stomach_action">• ANTENNA is a systemic insecticide with contact and stomach action.</string>
+    <string name="antenna_controls_sucking_pest_like_aphids_jassids_and_whitefly_in_various_crops_like_cotton_rice_cabbage_okra_chilli">• ANTENNA controls sucking pest like aphids, jassids and whitefly in various crops like cotton, rice, cabbage, Okra, Chilli.</string>
+    <string name="antenna_dose_is_40_50_gm_acre_as_per_recommendation_but_upto_100_gm_acre_in_practice_based_on_pest_type_and_their_resistance">• ANTENNA dose is 40-50 gm/acre (as per recommendation) but upto 100 gm / acre in practice based on pest type and their resistance.</string>
+    <string name="please_read_dfu_attached_with_the_product_before_use">• Please read DFU attached with the product before use.</string>
+    <string name="_1_20_sp_n_n2_n_n3_n_n4_n_n_40_50_n_n5">1. ऐसेटामिप्रिड 20 % SP\n \n2. ऐन्टेना एक अंतर्प्रवाही कीटनाशक है जो स्पर्शीय व उदर क्रिया द्वारा कार्य करता है|\n \n3. ऐन्टेना कपास, भिण्डी व मिर्च की फसल में लगने वाले रसचूषक कीटों जैसे जेसिड्स, एफिड्स व सफेद मक्खी पर नियंत्रण करता है|\n \n4. प्रयोग की मात्रा: -\n \n 40-50 ग्राम / एकड़\n \n5. कृपया प्रयोग से पूर्व उत्पाद के साथ संग्लन निर्देशिका ध्यान से पढ़ें|</string>
+    <string name="antidote_for_agrochemicals">Antidote For Agrochemicals:</string>
+    <string name="general_antidotes">• GENERAL ANTIDOTES-</string>
+    <string name="acephate_75_sp_n_acephate_35_buprofezin_15_wp_n_chloropyrifos_50_cypermethrin_5_ec_n_dichlorovos_76_ec_nfor_above_agro_chemicals_atropine_sulphate_2_4_mg_at_5_10_minutes_interval_should_be_given_for_hours_together_nfor_other_agro_chemicals_there_is_no_known_antidote_treat_the_patient_symptomatically">• Acephate 75% SP, \n• Acephate 35%+Buprofezin 15%WP, \n• Chloropyrifos 50%+Cypermethrin 5% EC, \n• Dichlorovos 76% EC\nFor above agro chemicals “Atropine Sulphate” 2-4 mg at 5-10 minutes interval should be given for hours together.\nFor other agro chemicals there is no known antidote. Treat the patient symptomatically.</string>
+    <string name="_1_cover_the_patient_with_a_light_blanket_n2_do_not_use_a_hot_water_bottle_n3_raise_foot_of_bed_n4_apply_elastic_bands_to_arms_and_legs_n5_give_strong_tea_or_coffee_n6_hypodermic_injection_of_stimulants_such_as_caffeine_and_epinephrine_n7_fluid_administration_of_dextrose_5_intravenously_n8_blood_or_plasma_transfusion_n9_do_not_exhaust_the_patient_by_too_much_or_too_vigorous_treatment"><![CDATA[1. Cover the patient with a light blanket.\n2. Do not use a hot water bottle.\n3. Raise foot of bed.\n4. Apply elastic bands to arms and legs. \n5. Give strong tea or coffee.\n6. Hypodermic injection of stimulants, such as caffeine and epinephrine.\n7. Fluid administration of dextrose 5% intravenously. \n8. Blood or plasma transfusion.\n9. Do not exhaust the patient by too much or too vigorous treatment.]]></string>
+    <string name="prevention_of_collapse"><![CDATA[Prevention of Collapse: ]]></string>
+    <string name="_1_hold_eye_lids_open_n2_wash_the_eyes_gently_with_a_stream_of_running_water_immediately_delay_of_even_a_few_seconds_greatly_increases_the_extent_of_injury">1.Hold eye lids open.\n2. Wash the eyes gently with a stream of running water immediately. Delay of even a few seconds greatly increases the extent of injury.</string>
+    <string name="skin_contamination">Skin Contamination:</string>
+    <string name="_1_carry_the_patient_do_not_let_him_walk_to_fresh_air_immediately_n2_open_all_doors_and_windows_n3_loosen_all_tight_clothing_n4_apply_artificial_respirations_if_breathing_has_stopped_or_is_irregular_avoid_vigorous_application_of_pressure_to_the_chest_n5_prevent_chilling_n6_wrap_the_patient_is_convulsing_keep_the_patient_as_quiet_as_possible_n7_if_the_patient_is_convulsing_keep_him_in_some_dark_room_avoid_jarring_noise_n8_do_not_give_alcohol_in_any_form">1. Carry the patient (do not let him walk) to fresh air immediately.\n2. Open all doors and windows.\n3. Loosen all tight clothing.\n4. Apply artificial respirations if breathing has stopped or is irregular; avoid vigorous application of pressure to the chest.\n5. Prevent chilling.\n6. Wrap the patient is convulsing, keep the patient as quiet as possible.\n7. If the patient is convulsing, keep him in some dark room. Avoid jarring noise.\n8. Do not give alcohol in any form.</string>
+    <string name="inhaled_poisons">Inhaled Poisons:</string>
+    <string name="remove_poison_from_the_patient_s_stomach_immediately_by_inducing_vomiting_give_common_salt_15_g_in_a_glass_of_warm_water_as_an_emetic_and_repeat_until_vomit_fluid_is_clear_gently_stroking_or_touching_the_throat_with_the_finger_or_the_blunt_end_of_a_spoon_will_aid_in_inducing_vomiting_when_the_stomach_is_full_of_fluid_if_the_patient_is_already_vomiting_do_not_five_emetic_but_give_large_amounts_of_warm_water_and_then_follow_the_specific_directions_suggested">Remove poison from the patient’s stomach immediately by inducing vomiting. Give common salt 15 g in a glass of warm water as an emetic and repeat until vomit fluid is clear. Gently stroking or touching the throat with the finger or the blunt end of a spoon will aid in inducing vomiting when the stomach is full of fluid. If the patient is already vomiting do not five emetic but give large amounts of warm water and then follow the specific directions suggested.</string>
+    <string name="swallowed_poisons">Swallowed Poisons:</string>
+    <string name="first_aid_precautions_in_case_of_pesticide_poisoning">First aid precautions, in case of pesticide poisoning-</string>
+    <string name="removal_of_poison_remove_poisons_by_including_vomiting_nthe_universal_antidote_a_mixture_of_7_g_of_activated_charcoal_3_5_g_of_magnesium_oxide_and_3_5_g_of_tannic_acid_in_half_a_glass_of_warm_water_may_be_used_to_absorb_or_neutralize_poisons_this_mixture_is_useful_in_poisoning_by_acids_liquid_glycosides_and_heavy_metals_except_in_cases_of_poisoning_by_corrosive_substances_it_should_be_followed_by_gastric_lavage"><![CDATA[• Removal of Poison: Remove poisons by including vomiting.\nThe “Universal Antidote”: A mixture of 7 g of activated charcoal, 3.5 g of magnesium oxide and 3.5 g of tannic acid in half a glass of warm water may be used to absorb or neutralize poisons. This mixture is useful in poisoning by acids, liquid glycosides and heavy metals. Except in cases of poisoning by corrosive substances it should be followed by gastric lavage.]]></string>
+    <string name="gastric_lavage_removal_of_stomach_contents_lavage_is_the_most_important_method_for_removing_poisons_from_the_stomach"><![CDATA[• Gastric Lavage (Removal of Stomach Contents): Lavage is the most important method for removing poisons from the stomach.]]></string>
+    <string name="demulcents_substances_having_soothing_effect_after_the_stomach_has_been_emptied_as_completely_as_possible_give_one_of_the_following_nraw_egg_white_mixed_with_water_n1_gelatine_9_to_18_g_dissolved_in_570_ml_of_warm_water_n2_butter_n3_cream_n4_milk_n5_mashed_potato_n6_flour_and_water"><![CDATA[• Demulcents (Substances having Soothing Effect): After the stomach has been emptied as completely as possible, give one of the following:\nRaw egg white mixed with water.\n1. Gelatine 9 to 18 g dissolved in 570 ml of warm water.\n2. Butter\n3. Cream\n4. Milk\n5. Mashed Potato\n6. Flour and water]]></string>
+    <string name="app_description">Willowood Crop Protection App is an initiative by Willowood Crop Sciences Pvt. Ltd to provide best crop protection solution to farmer community. Willowood Crop Protection has been specifically set to provide maximum support to the farmer community by providing the following features: • Language: Willowood Crop Protection provides information in two languages ie. English and Hindi which were developed keeping in view the mother tongue of the majority of the Indian farmers.This multilingual support conveys the best of the information to the farmer. • Crops: Willowood Crop Protection App provides the information of crop protection in major 22 crops. The details in each crop covers up various information like the pests, diseases and weeds that cause economic yield loss to the crops. The App also provides proper solution through Willowood Products.This feature has been enabled offline and can be accessed without an internet connection. • Safety Precautions: Willowood Crop Protection App has taken in consideration the safety precautions that any farmer needs to take care while dealing with Agro Chemicals.The App has dedicated two of its sections in detailing about Safety Measures as well as the Required Antidotes if in case of an mishap. These both features have also been enabled offline for the user to have a look even without an Internet connection. • Products: Willowood Crop Protection App has listed the details about the products by Willowood Crop Sciences Pvt Ltd. These products are divided in broad Categories of Insecticides, Miticides, Fungicides, Herbicides, PGRs and Surfactants.The app covers detailed information about each product.The information includes chemical composition,mode of action,features/advantage/benefits,Recommendation on different pests and Doses of use. This feature is available offline for use. • Willowood Advisors: For the maximum support to the farmers Willowood Crop Protection has given the state wise list of Willowood Advisors along with their phone numbers.Farmers can speak to the Advisors in their local languages.This feature is also offline and is available after Registration only. • Notification: Willowood Crop Protection App provides information about latest updates of the company as well as news related to agriculture for the benefit of farmers. • Weather: Weather plays an important role in deducing the output of agriculture. So Willowood Crop Protection App has provided a separate section that shows up the weather of your location through third party websites. The weather information includes Temperature, Rainfall, Humidity, Windspeed etc. • Contact: Willowood Crop Protection App has provided all the social media links like Facebook, Twitter, LinkedIn, Youtube along with Website, Email Id and Customer Care number inside the app to resolve their queries.</string>
+    <string name="krishi_rasayanon">कृषि रसायनों के लिए विषहर औषध:</string>
+    <string name="_1_75_sp_n2_35_15_n3_50_5_n4_76_ec_n_n_2_4_5_10_n">1. एसिफेट 75% SP\n2. एसिफेट 35 % + बुप्रोफेंजिन 15% \n3. क्लोरोपायरिफोस 50% + साइपरमेथ्रिन 5%\n4. डाइक्लोरोवास 76% EC\n \nउपरोक्त कृषि रसायनों के लिए एट्रोपिन सल्फेट 2-4 मिली ग्राम हर 5 से 10 मिनट के अन्तराल पर एक साथ लगातार देते रहना चाहिए.\nअन्य किसी प्रकार के कृषि रसायनों के लिए कोई विशेष प्रतिरोधी दवा (विषहर औषध) उपलब्ध नहीं है इन के लिए मरीज की स्थिति को देखते हुए इलाज करना चाहिए.</string>
+    <string name="anya_samanya">अन्य सामान्य प्रतिरोधी दवायें व उपाय -</string>
+    <string name="_1_n2_n3_n4_n5_n6_n7_5_n8_n9_n"><![CDATA[1. मरीज़ को हलके कम्बल से ढक दें. \n2. गरम पानी या बोटल का प्रयोग बिलकुल ना करे.\n3. पलंग को पैरों की तरफ से ऊंचा कर दे .\n4. हाथ-पैरों में रबर लगा कर खून के दबाव को कम करे . \n5. मरीज़ को कड़क चाय और काफ़ी दे .\n6. मरीज़ को शक्ति वर्धक इंजेक्शन जेसे केफिन या एपिनेफेरिन दे .\n7. मरीज़ को ग्लूकोज 5% की बोतल लगान चाहिए  \n8. जरुरत पड़ने पर मरीज को खून या प्लाज्मा दे \n9. मरीज़ को बहुत शारीरिक श्रम नहीं करवाना चहिये न ही एक साथ बहुत सारे इलाज करने चाहिए \n]]></string>
+    <string name="behoshi"><![CDATA[बेहोशी रोकने के लिए प्राथमिक उपचार : ]]></string>
+    <string name="_1_n2_n">1. पलकों लो खुल्ला रखने की कोशिश करे .\n2. सावधानी पूर्वक आँखों को साफ़ पानी से बार बार धोये, देर करने से समस्या ज्यादा हो सकती है \n</string>
+    <string name="yadi_zeher">जहर यदि आँखों के संपर्क में आ गया हो तो प्राथमिक उपचार :</string>
+    <string name="_1_n2_n3_n4_n5_n6_n7_n">1.मरीज़ को तुरंत खुली हवा में लेटा दे और मरीज़ को चलाने की कोशिश न करे \n2. मरीज़ के कपडे खोल दे या ढीले कर दे \n3. कृतिम स्वास देने की कोशिश करे अगर मरीज़ ठीक से साँस न ले पा रहा हो या रुक गयी हो ज्यादा जोर न लगाये न ही दिल में या छाती पर किसी प्रकार का दवाब दे \n4. मरीज़ को ठंडा रखने की कोशिश करे \n5. मरीज़ को चादर से लपेट के रखे, ज्यादा हिलाए डूलायें नहीं जितना हो मरीज़ को शांत रखने क कोशिश करे ,\n6. यदि मरीज असहज महसूस कर रहा हो तो उसे अँधेरे कमरे में रखे \n7. किसी भी रूप में अल्कोहल न दे \n</string>
+    <string name="saans">साँस के द्वारा यदि जहर गया हो तो प्राथमिक उपचार :</string>
+    <string name="_15_4_5_n_n">जहर निगल लेने की स्थिति में मरीज़ के पेट से जहर को तुरंत निकलने के लिए उलटी कारने की कोशिश करनी चाहिए| 15 ग्राम नमक एल गिलास गरम पानी में दे और इसे देते रहे जब तक मरीज़ को उलटी ना हो जाये उंगली या चम्मच के पीछे के हिस्से से गले को सावधानी पूर्वक सहलाते रहे जब तक की 4 से 5 बार पेट पूरा खली न हो जाये \n \n यदि मरीज़ ने उलटी कर ली हो तो ज्यादा से ज्यादा गरम पानी पिलाये और दिए गये निर्देशों का पालन करे .</string>
+    <string name="zeher">जहर निगलने पर प्राथमिक उपचार :</string>
+    <string name="prathmik">प्राथमिक उपचार और सावधानियां -</string>
+    <string name="n1_n2_9_18_570_n3_n4_n5_n6_n7_n">शांतिदायक पदार्थ (राहत देने वाले पदार्थ) : जहर को पेट से पूरा निकलने के बाद निम्न में से कोई भी एक चीज़ दे \n1. कच्चे अंडे की सफेदी को पानी के साथ.\n2. जिलेटिन 9 से 18 ग्राम 570 मिली गरम पानी में घोल कर \n3. माखन\n4. क्रीम\n5. दूध \n6. आलू मसल के \n7. अटा और पानी \n</string>
+    <string name="gastric_hin"><![CDATA[गैस्ट्रिक लावेज़ (पेट साफ़ करना) : पेट साफ़ करना पेट से जहर निकलने का सबसे कारगर तरीका है .]]></string>
+    <string name="n_7_3_5_3_5"><![CDATA[जहर को निकलना : जहर को निकलने के लिए मरीज़ को उलटी कराने की कोशिश करनी चाहिए \n अन्य सामान्य प्रतिरोधी दवायें:  7 ग्राम चारकोल को बारीक़ पीस कर 3.5 ग्राम मेगनीसियम ऑक्साइड और 3.5 ग्राम टेनिक एसिड के साथ आधे गिलास गरम पानी में देने से दवा का असर थोडा कम होता है | यह मिक्चर एसिड्स, तरल ग्लाइकोसाइड और भारी तत्वों के जहर निवारक में उपयोगी है|यह उपाय गैसट्रिक लावेज़ के बाद करना चाहिए.]]></string>
+    <string name="active_ingredient_lol">Active Ingredient:</string>
+    <string name="campesterol_amp_stigmasterol_lol"><![CDATA[Campesterol & Stigmasterol]]></string>
+    <string name="mode_of_action_lol">Mode of Action :</string>
+    <string name="soil_application_through_broadcasting_method">Soil application through broadcasting method</string>
+    <string name="features_advantage_benefits_lol">Features/ Advantage/ Benefits:</string>
+    <string name="brand_gr_is_recommended_by_saus_icar_institutions">• BRAND GR is recommended by SAUs/ ICAR institutions.</string>
+    <string name="an_early_application_of_brand_gr_will_give_better_results">An early application of Brand GR will give better results.</string>
+    <string name="_0_45_days_after_sowing_transplanting">0–45 days after sowing / transplanting.</string>
+    <string name="brand_gr_is_a_natural_bio_stimulant_that_stimulates_the_bio_chemical_physiological_activities_for_overall_growth_of_the_plant">• BRAND GR is a Natural Bio-Stimulant that stimulates the bio-chemical / physiological activities for overall growth of the plant.</string>
+    <string name="brand_gr_is_a_soil_conditioner_and_strengthens_soil_root_bonding">• BRAND GR is a soil conditioner and strengthens soil - root bonding.</string>
+    <string name="brand_gr_improves_water_holding_capacity_of_the_soil">• BRAND GR improves water holding capacity of the soil.</string>
+    <string name="brand_gr_helps_maintaining_soil_ph_6_5_7_0_and_facilitates_absorption_of_nutrients">• BRAND GR helps maintaining soil pH (6.5 -7.0) and facilitates absorption of nutrients.</string>
+    <string name="brand_sl_regulates_the_development_of_flowers_and_maintain_male_female_flowers_ratio_lol">• BRAND SL regulates the development of flowers and maintain male / female flowers ratio.</string>
+    <string name="brand_gr_improves_seed_germination_via_the_improved_cataion_exchange_capacity_cec_level_of_soil">• BRAND GR improves seed germination via the improved Cataion Exchange Capacity (CEC) level of soil.</string>
+    <string name="brand_gr_enhances_uptake_of_nutrients_more_efficiently_by_increased_permeability_of_plant_membranes">• BRAND GR enhances uptake of nutrients more efficiently by increased permeability of plant membranes.</string>
+    <string name="brand_gr_helps_in_development_of_lateral_buds_to_promote_branches">• BRAND GR helps in development of lateral buds to promote branches.</string>
+    <string name="time_of_application_lol">Time of Application:</string>
+    <string name="_4_8_kg_acre">4–8 Kg/ acre</string>
+    <string name="dose_lol">Dose:</string>
+    <string name="brand_gr_enhances_crop_yield">• BRAND GR enhances Crop Yield</string>
+    <string name="brand_gr_ensures_quality_and_marketable_yield">• BRAND GR ensures Quality and Marketable Yield</string>
+    <string name="brand_gr_helps_in_chlorophyll_synthesis_to_promote_greenness_in_plants">• BRAND GR helps in Chlorophyll synthesis to promote greenness in plants.</string>
+    <string name="brand_gr_promotes_robust_tillering_in_cereal_crops_for_higher_yield">• BRAND GR promotes robust tillering in cereal crops for higher yield.</string>
+    <string name="brand_gr_stimulates_root_development">• BRAND GR stimulates root development.</string>
+    <string name="brand_gr_increases_fertilizer_efficacy_by_restricting_leaching">• BRAND GR increases fertilizer efficacy by restricting leaching.</string>
+    <string name="gr">ब्रांड GR (दानेदार)</string>
+    <string name="_16_13_13">किसी भी फसल के अच्छे विकास के लिए 16 प्रमुख पोषक तत्वों कीआवश्यकता होती है जिनमें से तीन पोषक तत्व कार्बन, हाईड्रोजन तथा आक्सीजन पौधे वायु मण्डल एवं जल से ग्रहण करते हैं तथा शेष 13 पोषक तत्व जैसे नत्रजन, फास्फोरस, पोटाश, कैल्श्यिम, मैग्नीशियम एवं सल्फर तथा सूक्ष्म तत्व-जिंक, आयरन, कापर, मैंग्नीज, बोरान, मालीब्डेनम एवं क्लोरीन पौधे भूमि से ग्रहण करते हैं । भूमि में ये 13 तत्व प्राकृतिक रूप से बनते हैं या फिर जैविक व रासायनिक खाद के रूप में बाहर से दिए जाते हैं.</string>
+    <string name="ph_ph_6_5_7_5_i_ph_7_5_i_ph_6_5_ph">ये सभी तत्व जड़ द्वारा अवशोषित कर किये जाते है. तत्वों का अवशोषण मृदा के PH मान व जड़ों के विकास पर निर्भर करता है.तत्वों के अधिक अवशोषण के लिए मृदा का PH मान 6.5 से 7.5 होना चाहिए I क्षारीय मृदा का PH मान 7.5 से अधिक होता है I अम्लीय मृदा का PH मान 6.5 से कम होता है. मृदा का PH मान सामान्य से अधिक या कम होने पर मृदा से तत्वों का अवशोषण कम हो जाता है तथा पौधे का विकास नहीं हो पाता.</string>
+    <string name="sakriya_tatva_1">सक्रीय तत्व:</string>
+    <string name="gr_1">ब्रांड GR (दानेदार) एक नेचुरल स्टेरॉल केमिस्ट्री पर आधारित उत्पाद है जिसमें उपस्थित स्टिग्मा-स्टेरॉल व केम्पेस्ट्रोल पौधे में जैव-रासायनिक क्रियाओं को उद्दीप्त कर पौधे के सम्पूर्ण विकास में सहयोग करता है.</string>
+    <string name="vish">विशेषताएं व लाभ :</string>
+    <string name="_8_gr_4_10_20_48">8. ब्रांड GR (दानेदार) 4 किलो, 10 किलो, 20 किलो व 48 किलो की पैकिंग में उपलब्ध है</string>
+    <string name="_7_gr">7. ब्रांड GR (दानेदार) का प्रयोग रेत / सूखी मिटटी / किसी भी खाद के साथ मिलाकर किया जा सकता है.</string>
+    <string name="_15">-बुवाई के 15 दिन तक</string>
+    <string name="gr_2">-बुवाई के साथ या</string>
+    <string name="gr_3">-खेत की तयारी के समय या</string>
+    <string name="_6_gr_4_8">6. ब्रांड GR (दानेदार) का प्रयोग मृदा में 4–8 किलो प्रति एकड़ की दर से निम्न अवस्था पर करना चाहिए.</string>
+    <string name="_5_gr">5. ब्रांड GR (दानेदार) बीज के भ्रूण की सुप्तावस्था समाप्त कर अंकुरण क्षमता को बढाता है.</string>
+    <string name="_4_gr">4. ब्रांड GR (दानेदार) पौधों में जड़ों का विकास करता है तथा तत्वों के अवशोषण को बढाता है</string>
+    <string name="_3_gr_soil_erosion">3. ब्रांड GR (दानेदार) मृदा अपरदन (Soil Erosion) को रोकता है</string>
+    <string name="_2_gr_water_holding_capacity_leaching">2. ब्रांड GR (दानेदार) मृदा में जल अवधारण क्षमता (Water Holding Capacity) सुधरता है तथा जल का अपव्यय (Leaching) नहीं होने देता</string>
+    <string name="_1_gr_ph_6_5_7_5">1. ब्रांड GR (दानेदार) मृदा के PH मान को सामान्य (6.5 -7.5) बनाने में मदद करता है जिससे तत्वों का अवशोषण बढ़ जाता है.</string>
+    <string name="active_ingredient">Active Ingredient:</string>
+    <string name="campesterol_amp_stigmasterol"><![CDATA[Campesterol & Stigmasterol]]></string>
+    <string name="mode_of_action">Mode of Action :</string>
+    <string name="foliar_application">Foliar application</string>
+    <string name="brand_sl_provide_resistance_to_plants_in_stress_condition">• BRAND SL provide resistance to plants in stress condition.</string>
+    <string name="brand_sl_regulates_the_pollination_and_fertilization_for_fruit_setting">• BRAND SL regulates the pollination and fertilization for fruit setting.</string>
+    <string name="brand_sl_promotes_uniform_size_and_weight_of_the_fruits_pods_grains">• BRAND SL promotes uniform size and weight of the fruits / Pods / Grains.</string>
+    <string name="brand_sl_regulates_the_development_of_flowers_and_maintain_male_female_flowers_ratio">• BRAND SL regulates the development of flowers and maintain male / female flowers ratio.</string>
+    <string name="in_vegetable_crops_spray_can_be_repeat_after_every_picking">In vegetable crops spray can be repeat after every picking</string>
+    <string name="second_spray_at_fruiting_ear_head_formation_stage">Second spray at Fruiting / ear head formation stage</string>
+    <string name="first_spray_before_flowering_stage">First spray before flowering stage</string>
+    <string name="time_of_application">Time of Application:</string>
+    <string name="_1_ml_per_lt_of_water">1 ml per lt of water</string>
+    <string name="dose">Dose:</string>
+    <string name="brand_sl_enhances_crop_vigor_and_crop_yield">• BRAND SL enhances crop vigor and crop yield</string>
+    <string name="brand_sl_ensures_quality_and_marketable_yield">• BRAND SL ensures Quality and Marketable Yield</string>
+    <string name="brand_sl_restricts_flower_dropping">• BRAND SL restricts flower dropping.</string>
+    <string name="brand_sl_helps_in_chlorophyll_synthesis_to_promote_greenness_in_plants">• BRAND SL helps in Chlorophyll synthesis to promote greenness in plants.</string>
+    <string name="brand_sl_helps_in_development_of_lateral_buds_to_promote_branches">• BRAND SL helps in development of lateral buds to promote branches.</string>
+    <string name="features_advantage_benefits">Features/ Advantage/ Benefits:</string>
+    <string name="brand_sl_is_recommended_by_saus_icar_institutions">• BRAND SL is recommended by SAUs/ ICAR institutions.</string>
+    <string name="brand_sl_is_a_natural_bio_stimulant_that_stimulates_the_bio_chemical_physiological_activities_for_overall_growth_of_the_plant">• BRAND SL is a Natural Bio-Stimulant that stimulates the bio-chemical / physiological activities for overall growth of the plant.</string>
+    <string name="sak">सक्रीय तत्व:</string>
+    <string name="sl">ब्रांड SL (तरल) एक नेचुरल स्टेरॉल केमिस्ट्री पर आधारित उत्पाद है जिसमें उपस्थित स्टिग्मा-स्टेरॉल व केम्पेस्ट्रोल पौधे में जैव-रासायनिक क्रियाओं को उद्दीप्त कर पौधे के सम्पूर्ण विकास में सहयोग करता है.</string>
+    <string name="sl2">विशेषताएं व लाभ :</string>
+    <string name="sl3">मिर्च की फसल में ब्रांड का परिणाम</string>
+    <string name="_1_sl">1. ब्रांड SL (तरल) फूलों के विकास-क्रम को नियंत्रित करता है तथा फूलों में मादा अंगों का विकास करता है</string>
+    <string name="_2_sl_female_flowers_bisexual_flowers">2. ब्रांड SL (तरल) फसल में मादा फूलों (female flowers) व उभयलिंगी फूलों (Bisexual flowers) की संख्या बढाता है</string>
+    <string name="_3_sl">3. ब्रांड SL (तरल) परागण व निषेचन को नियंत्रित कर मादा / उभयलिंगी फूलों को फल व फली में परिवर्तित करता है.</string>
+    <string name="_4_sl">4. ब्रांड SL (तरल) कोशिका विभाजन को नियंत्रित करता है जिससे फल व फली का आकार व बजन बढ़ता है.</string>
+    <string name="_5_sl_chlorophyll_synthesis_photosynthesis">5. ब्रांड SL (तरल) पौधे में हरित-लवक संशलेषण (Chlorophyll synthesis) व प्रकाश संशलेषण (photosynthesis) की क्रिया को बढाता है जिससे पौधा हरा होती है तथा भोजन निर्माण अधिक होता है जो फल / फली को चमकदार व बजनी बनाता है.</string>
+    <string name="_6_sl_apical_buds_lateral_buds">6. ब्रांड SL (तरल) शिखर कलिकाओं (Apical buds) की ब्रद्धी अवरुद्ध कर पार्श्व कलिकाओं (Lateral buds) के विकास को बढाता है जिससे पौधे में शाखाओं की संख्या में ब्रद्धि होती है.</string>
+    <string name="sl69">प्रयोग का समय व मात्रा:</string>
+    <string name="_1_sl_100">1. ब्रांड SL (तरल) का प्रयोग पर्णीय छिडकाव के रूप में 100 मिली प्रति एकड़ की दर से निम्न अवस्था पर करना चाहिए.</string>
+    <string name="sl34">कपास की फसल में ब्रांड का परिणाम</string>
+    <string name="sl23">टमाटर की फसल में ब्राण्ड का परिणाम</string>
+    <string name="sl_345">जरबेरा की फसल में ब्राण्ड का परिणाम</string>
+    <string name="sllol">बैगन की फसल में ब्रांड का परिणाम</string>
+    <string name="slol">धनिया और कपास की फसल में ब्राण्ड का परिणाम</string>
+    <string name="sl3423">अंगूर की फसल में ब्राण्ड का परिणाम</string>
+    <string name="sl293">गेंदा की फसल में ब्राण्ड का परिणाम</string>
+    <string name="sl123">अरहर की फसल में ब्राण्ड का परिणाम</string>
+    <string name="_3_sl_lol">3. ब्रांड SL (तरल) का प्रयोग किसी भी कीटनाशक के साथ किया जा सकता है.</string>
+    <string name="_2_sl_sl_lol">2. ब्रांड SL (तरल) का प्रयोग सभी फसलों में किया जा सकता है. बार बार टूटने वाली सब्जियों में ब्रांड SL (तरल) का हर तुड़ाई के बाद कर अधिक लाभ लिया जा सकता है.</string>
+    <string name="swllslls">- फूल आने से पहले</string>
+    <string name="skdjcs">- फल / फली / बाली बनते समय</string>
+    <string name="click_here_to_know_more">Click here to know more…</string>
+    <string name="willowood_launches_app">Willowood Launches App</string>
+    <string name="_1_13_9_13_9_ec_n_n2_n_n3_n_n4_n_0_7_1_0_200_n_n5_n">1. डायफेनकोनाज़ोल 13.9% + प्रोपीकोनाज़ोल 13.9% EC \n \n2. विलजोल+ एक बहु-आयामी फफूंदनाशक है.\n \n3. विलजोल+ धान की फसल में शीथ ब्लाइट व डरटी पेनिकल नामक बीमारी के नियंत्रण के लिए छिडकाव किया जा सकता है.\n \n4. मात्रा-\n 0.7 – 1.0 मिली. / लीटर पानी. एक एकड़ क्षेत्रफल के लिए 200लीटर पानी के साथ छिडकाव करें.\n \n5. कृपया प्रयोग से पूर्व उत्पाद के साथ संग्लन निर्देशिका ध्यान से पढ़ें|\n</string>
+    <string name="propiconazole_13_9_difenoconazole_13_9_ec_n_n_brand_name_wilzole_n_n_wilzole_is_a_broad_spectrum_systemic_fungicide_that_can_control_wide_range_of_diseases_in_different_crops_n_n_wilzole_is_recommended_for_control_of_sheath_blight_and_dirty_panicle_diseases_in_paddy_crop_n_n_dose_n_n_0_7_1_0_ml_lt_of_water_use_200_lts_of_solution_to_spray_in_1_acre_area_n_n_please_read_dfu_attached_with_the_product_before_use"><![CDATA[• PROPICONAZOLE 13.9% + DIFENOCONAZOLE 13.9% EC \n \n• Brand Name: WILZOLE+\n \n• WILZOLE+ is a broad spectrum systemic fungicide that can control wide range of diseases in different crops.\n \n• WILZOLE+ is recommended for control of Sheath blight and dirty panicle diseases in paddy crop. \n \n• Dose-\n \n 0.7 – 1.0 ml / lt of water. Use 200 lts of solution to spray in 1 acre area.\n \n • Please read DFU attached with the product before use.]]></string>
+    <string name="hexythiazox_5_45_ec_n_n_brand_name_wiltox_n_n_wiltox_is_a_miticide_that_controls_mites_in_tea_chilli_amp_apple_n_n_dose_for_use_n_tea_140_200_ml_acre_n_n_chilli_140_200_ml_acre_n_n_apple_0_4_ml_lt_of_water_n_n_please_read_dfu_attached_with_the_product_before_use_n"><![CDATA[• HEXYTHIAZOX 5.45% EC\n \n• BRAND NAME: WILTOX\n \n• WILTOX is a miticide that controls mites in tea, chilli & apple.\n \n• Dose for use-\n Tea: 140-200 ml / acre \n \n Chilli: 140-200 ml / acre\n \n Apple: 0.4 ml / lt of water\n \n• Please read DFU attached with the product before use.\n]]></string>
+    <string name="about_us">ABOUT US</string>
+    <string name="products">PRODUCTS</string>
+    <string name="crops">CROPS</string>
+    <string name="safety">SAFETY</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="ww_advisor">WW ADVISOR</string>
+    <string name="contact">CONTACT</string>
+    <string name="t_amp_c"><![CDATA[T&C]]></string>
+    <string name="weather">WEATHER</string>
+    <string name="website">WEBSITE</string>
+    <string name="antidote">ANTIDOTE</string>
+    <string name="news">NEWS</string>
+    <string name="wilpower">WILPOWER</string>
+    <string name="wilzim">WILZIM</string>
+    <string name="wilstrong">WILSTRONG</string>
+    <string name="wilpower_lol">WILPOWER</string>
+    <string name="buttonSelectPhoto">Select Photo</string>
+    <string name="buttonTakePhoto">Start Camera</string>
+    <string name="buttonDiagnose">Detect</string>
+    <string name="defaultImage">Default image set now...</string>
+    <string name="descriptionImage">View for displaying image</string>
+    <string name="wilcore">WILCORE</string>
+    <string name="wiltry">WILTRY</string>
+    <string name="valxtra">VALXTRA</string>
+    <string name="diazo_top">DIAZO-TOP</string>
+    <string name="sulcona">SULCONA</string>
+    <string name="wiltez">WILTEZ</string>
+    <string name="carmel">CARMEL</string>
+    <string name="wilzole">WILZOLE+</string>
+    <string name="theme">THEME</string>
+    <string name="phylum">PHYLUM</string>
+    <string name="mywill">MYWILL</string>
+    <string name="layby">LAYBY</string>
+    <string name="dr_col">DR COL</string>
+    <string name="pacemaker">PACEMAKER</string>
+    <string name="deltrom">DELTROM</string>
+    <string name="wilthrin">WILTHRIN</string>
+    <string name="wilace">WILACE</string>
+    <string name="break_lol">BREAK</string>
+    <string name="antenna">ANTENNA</string>
+    <string name="sunny_classic">SUNNY CLASSIC</string>
+    <string name="leopard_70_wg"><![CDATA[LEOPARD  70 WG]]></string>
+    <string name="wilking">WILKING</string>
+    <string name="wilqueen">WILQUEEN</string>
+    <string name="teknox">TEKNOX</string>
+    <string name="inovexia">INOVEXIA</string>
+    <string name="willoxam_fs">WILLOXAM FS</string>
+    <string name="willoxam_wg">WILLOXAM WG</string>
+    <string name="emacto">EMACTO</string>
+    <string name="taurate">TAURATE</string>
+    <string name="wilfly">WILFLY</string>
+    <string name="wiljosh">WILJOSH</string>
+    <string name="exotica">EXOTICA</string>
+    <string name="dna">DNA</string>
+
+    <string-array name="Occupation">
+        <item>SELECT OCCUPATION</item>
+        //0
+        <item>Farmer</item>
+        //1
+        <item>WW Employee</item>
+        //2
+        <item>Employee (Other)</item>
+        //3
+        <item>Scientist</item>
+        //4
+        <item>Student</item>
+        //5
+        <item>Dealer/Distributer</item>
+        //6
+        <item>Any Other</item>
+        //7
+    </string-array>
+
+    <string-array name="Occupationhindi">
+        <item>व्यवसाय चुनें</item>
+        //0
+        <item>किसान</item>
+        //1
+        <item>विलोवुड कर्मचारी</item>
+        //2
+        <item>कर्मचारी (अन्य)</item>
+        //3
+        <item>कृषि वैज्ञानिक</item>
+        //4
+        <item>छात्र</item>
+        //5
+        <item>वितरक/विक्रेता</item>
+        //6
+        <item>अन्य</item>
+        //7
+    </string-array>
+
+    <string-array name="State">
+        <item>SELECT YOUR STATE</item>
+        <item>Andhra Pradesh</item>
+        //1
+        <item>Arunachal Pradesh</item>
+        //2
+        <item>Assam</item>
+        //3
+        <item>Bihar</item>
+        //4
+        <item>Chhattisgarh</item>
+        //5
+        <item>Goa</item>
+        //6
+        <item>Gujarat</item>
+        //7
+        <item>Haryana</item>
+        //8
+        <item>Himachal Pradesh</item>
+        //9
+        <item>Jammu and Kashmir</item>
+        //10
+        <item>Jharkhand</item>
+        //11
+        <item>Karnataka</item>
+        //12
+        <item>Kerala</item>
+        //13
+        <item>Madhya Pradesh</item>
+        //14
+        <item>Maharashtra</item>
+        //15
+        <item>Manipur</item>
+        //16
+        <item>Meghalaya</item>
+        //17
+        <item>Mizoram</item>
+        //18
+        <item>Nagaland</item>
+        //19
+        <item>Orissa</item>
+        //20
+        <item>Punjab</item>
+        //21
+        <item>Rajasthan</item>
+        //22
+        <item>Sikkim</item>
+        //23
+        <item>Tamil Nadu</item>
+        //24
+        <item>Tripura</item>
+        //25
+        <item>Uttarakhand</item>
+        //26
+        <item>Uttar Pradesh</item>
+        //27
+        <item>West Bengal</item>
+        //28
+        <item>Chandigarh</item>
+        //29
+        <item>Delhi</item>
+        //30
+    </string-array>
+
+    <string-array name="Statehindi">
+        <item>अपना राज्य चुनें</item>
+        <item>आंध्र प्रदेश</item>
+        //1
+        <item>अरुणाचल प्रदेश</item>
+        //2
+        <item>असम</item>
+        //3
+        <item>बिहार</item>
+        //4
+        <item>छत्तीसगढ़</item>
+        //5
+        <item>गोआ</item>
+        //6
+        <item>गुजरात</item>
+        //7
+        <item>हरियाणा</item>
+        //8
+        <item>हिमाचल प्रदेश</item>
+        //9
+        <item>जम्मू और कश्मीर</item>
+        //10
+        <item>झारखंड</item>
+        //11
+        <item>कर्नाटक</item>
+        //12
+        <item>केरल</item>
+        //13
+        <item>मध्य प्रदेश</item>
+        //14
+        <item>महाराष्ट्र</item>
+        //15
+        <item>मणिपुर</item>
+        //16
+        <item>मेघालय</item>
+        //17
+        <item>मिज़ोरम</item>
+        //18
+        <item>नागालैंड</item>
+        //19
+        <item>ओडिशा</item>
+        //20
+        <item>पंजाब</item>
+        //21
+        <item>राजस्थान</item>
+        //22
+        <item>सिक्किम</item>
+        //23
+        <item>तमिलनाडु</item>
+        //24
+        <item>त्रिपुरा</item>
+        //25
+        <item>उत्तराखंड</item>
+        //26
+        <item>उत्तर प्रदेश</item>
+        //27
+        <item>प० बंगाल</item>
+        //28
+        <item>चंडीगढ़</item>
+        //29
+        <item>दिल्ली</item>
+        //30
+    </string-array>
+
+    />
+
+</resources>

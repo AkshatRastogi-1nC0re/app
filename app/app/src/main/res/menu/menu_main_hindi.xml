@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/shareh"
+        android:title="हमें शेयर करें"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rateh"
+        android:textSize="22sp"
+        android:title="हमारा मूल्यांकन करें"
+        android:visible="true"
+        app:showAsAction="never" />
+</menu>
